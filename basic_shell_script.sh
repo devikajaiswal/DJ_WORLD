@@ -1,6 +1,6 @@
 #!/bin/bash
-mail_body="GL reports have been triggered for : `date +%d/%m/%Y`"
-echo $mail_body | mail -s "GL REPORT STATUS" devika.jaiswal@kpn.com
+mail_body="DATE : `date +%d/%m/%Y`"
+echo $mail_body | mail -s "DATE from Jenkins Program" devika.jaiswal@kpn.com
 
 x=1
 
