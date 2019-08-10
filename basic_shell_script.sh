@@ -1,6 +1,6 @@
 #!/bin/bash
 mail_body="DATE : `date +%d/%m/%Y`"
-echo $mail_body | mail -s "DATE from Jenkins Program" devika.jaiswal@kpn.com
+echo $mail_body | mail -s "DATE from Shell Jenkins Program" devika.jaiswal@kpn.com
 
 x=1
 
