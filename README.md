@@ -1,2 +1,2 @@
 # DJ_WORLD
-For learning GIT
+For learning GIT and Jenkins.
