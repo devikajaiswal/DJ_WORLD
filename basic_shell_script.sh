@@ -4,7 +4,7 @@ echo $mail_body | mail -s "DATE from Shell Jenkins Program" devika.jaiswal@kpn.c
 
 x=1
 
-prev_month=$(echo $x | awk -v date="$(date "+%d %m %Y")" -v OFS="_" '
+prev_month=$(echo $x | /usr/xpg4/bin/awk -v date="$(date "+%d %m %Y")" -v OFS="_" '
 {
   num=$0
   split(date, a); d=a[1]; m=a[2]; y=a[3]
